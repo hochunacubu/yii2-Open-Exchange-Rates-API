@@ -6,6 +6,12 @@ use yii\base\Component;
 use linslin\yii2\curl\Curl;
 use app\dto\RatesLatestDto;
 
+/**
+ * Class RatesApiComponent
+ * Currency data API
+ * https://docs.openexchangerates.org/docs/
+ * @package app\components
+ */
 class RatesApiComponent extends Component
 {
     /** @var string */
