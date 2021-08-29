@@ -7,512 +7,512 @@ use Spatie\DataTransferObject\DataTransferObject;
 class RatesDto extends DataTransferObject
 {
     /** @var float|int */
-    public float $AED;
+    public $AED;
 
     /** @var float|int */
-    public float $AFN;
+    public $AFN;
 
     /** @var float|int */
-    public float $ALL;
+    public $ALL;
 
     /** @var float|int */
-    public float $AMD;
+    public $AMD;
 
     /** @var float|int */
-    public float $ANG;
+    public $ANG;
 
     /** @var float|int */
-    public float $AOA;
+    public $AOA;
 
     /** @var float|int */
-    public float $ARS;
+    public $ARS;
 
     /** @var float|int */
-    public float $AUD;
+    public $AUD;
 
     /** @var float|int */
-    public float $AWG;
+    public $AWG;
 
     /** @var float|int */
-    public float $AZN;
+    public $AZN;
 
     /** @var float|int */
-    public float $BAM;
+    public $BAM;
 
     /** @var float|int */
-    public float $BBD;
+    public $BBD;
 
     /** @var float|int */
-    public float $BDT;
+    public $BDT;
 
     /** @var float|int */
-    public float $BGN;
+    public $BGN;
 
     /** @var float|int */
-    public float $BHD;
+    public $BHD;
 
     /** @var float|int */
-    public float $BIF;
+    public $BIF;
 
     /** @var float|int */
-    public float $BMD;
+    public $BMD;
 
     /** @var float|int */
-    public float $BND;
+    public $BND;
 
     /** @var float|int */
-    public float $BOB;
+    public $BOB;
 
     /** @var float|int */
-    public float $BRL;
+    public $BRL;
 
     /** @var float|int */
-    public float $BSD;
+    public $BSD;
 
     /** @var float|int */
-    public float $BTC;
+    public $BTC;
 
     /** @var float|int */
-    public float $BTN;
+    public $BTN;
 
     /** @var float|int */
-    public float $BWP;
+    public $BWP;
 
     /** @var float|int */
-    public float $BYN;
+    public $BYN;
 
     /** @var float|int */
-    public float $BZD;
+    public $BZD;
 
     /** @var float|int */
-    public float $CAD;
+    public $CAD;
 
     /** @var float|int */
-    public float $CDF;
+    public $CDF;
 
     /** @var float|int */
-    public float $CHF;
+    public $CHF;
 
     /** @var float|int */
-    public float $CLF;
+    public $CLF;
 
     /** @var float|int */
-    public float $CLP;
+    public $CLP;
 
     /** @var float|int */
-    public float $CNH;
+    public $CNH;
 
     /** @var float|int */
-    public float $CNY;
+    public $CNY;
 
     /** @var float|int */
-    public float $COP;
+    public $COP;
 
     /** @var float|int */
-    public float $CRC;
+    public $CRC;
 
     /** @var float|int */
-    public float $CUC;
+    public $CUC;
 
     /** @var float|int */
-    public float $CUP;
+    public $CUP;
 
     /** @var float|int */
-    public float $CVE;
+    public $CVE;
 
     /** @var float|int */
-    public float $CZK;
+    public $CZK;
 
     /** @var float|int */
-    public float $DJF;
+    public $DJF;
 
     /** @var float|int */
-    public float $DKK;
+    public $DKK;
 
     /** @var float|int */
-    public float $DOP;
+    public $DOP;
 
     /** @var float|int */
-    public float $DZD;
+    public $DZD;
 
     /** @var float|int */
-    public float $EGP;
+    public $EGP;
 
     /** @var float|int */
-    public float $ERN;
+    public $ERN;
 
     /** @var float|int */
-    public float $ETB;
+    public $ETB;
 
     /** @var float|int */
-    public float $EUR;
+    public $EUR;
 
     /** @var float|int */
-    public float $FJD;
+    public $FJD;
 
     /** @var float|int */
-    public float $FKP;
+    public $FKP;
 
     /** @var float|int */
-    public float $GBP;
+    public $GBP;
 
     /** @var float|int */
-    public float $GEL;
+    public $GEL;
 
     /** @var float|int */
-    public float $GGP;
+    public $GGP;
 
     /** @var float|int */
-    public float $GHS;
+    public $GHS;
 
     /** @var float|int */
-    public float $GIP;
+    public $GIP;
 
     /** @var float|int */
-    public float $GMD;
+    public $GMD;
 
     /** @var float|int */
-    public float $GNF;
+    public $GNF;
 
     /** @var float|int */
-    public float $GTQ;
+    public $GTQ;
 
     /** @var float|int */
-    public float $GYD;
+    public $GYD;
 
     /** @var float|int */
-    public float $HKD;
+    public $HKD;
 
     /** @var float|int */
-    public float $HNL;
+    public $HNL;
 
     /** @var float|int */
-    public float $HRK;
+    public $HRK;
 
     /** @var float|int */
-    public float $HTG;
+    public $HTG;
 
     /** @var float|int */
-    public float $HUF;
+    public $HUF;
 
     /** @var float|int */
-    public float $IDR;
+    public $IDR;
 
     /** @var float|int */
-    public float $ILS;
+    public $ILS;
 
     /** @var float|int */
-    public float $IMP;
+    public $IMP;
 
     /** @var float|int */
-    public float $INR;
+    public $INR;
 
     /** @var float|int */
-    public float $IQD;
+    public $IQD;
 
     /** @var float|int */
-    public float $IRR;
+    public $IRR;
 
     /** @var float|int */
-    public float $ISK;
+    public $ISK;
 
     /** @var float|int */
-    public float $JEP;
+    public $JEP;
 
     /** @var float|int */
-    public float $JMD;
+    public $JMD;
 
     /** @var float|int */
-    public float $JOD;
+    public $JOD;
 
     /** @var float|int */
-    public float $JPY;
+    public $JPY;
 
     /** @var float|int */
-    public float $KES;
+    public $KES;
 
     /** @var float|int */
-    public float $KGS;
+    public $KGS;
 
     /** @var float|int */
-    public float $KHR;
+    public $KHR;
 
     /** @var float|int */
-    public float $KMF;
+    public $KMF;
 
     /** @var float|int */
-    public float $KPW;
+    public $KPW;
 
     /** @var float|int */
-    public float $KRW;
+    public $KRW;
 
     /** @var float|int */
-    public float $KWD;
+    public $KWD;
 
     /** @var float|int */
-    public float $KYD;
+    public $KYD;
 
     /** @var float|int */
-    public float $KZT;
+    public $KZT;
 
     /** @var float|int */
-    public float $LAK;
+    public $LAK;
 
     /** @var float|int */
-    public float $LBP;
+    public $LBP;
 
     /** @var float|int */
-    public float $LKR;
+    public $LKR;
 
     /** @var float|int */
-    public float $LRD;
+    public $LRD;
 
     /** @var float|int */
-    public float $LSL;
+    public $LSL;
 
     /** @var float|int */
-    public float $LYD;
+    public $LYD;
 
     /** @var float|int */
-    public float $MAD;
+    public $MAD;
 
     /** @var float|int */
-    public float $MDL;
+    public $MDL;
 
     /** @var float|int */
-    public float $MGA;
+    public $MGA;
 
     /** @var float|int */
-    public float $MKD;
+    public $MKD;
 
     /** @var float|int */
-    public float $MMK;
+    public $MMK;
 
     /** @var float|int */
-    public float $MNT;
+    public $MNT;
 
     /** @var float|int */
-    public float $MOP;
+    public $MOP;
 
     /** @var float|int */
-    public float $MRO;
+    public $MRO;
 
     /** @var float|int */
-    public float $MRU;
+    public $MRU;
 
     /** @var float|int */
-    public float $MUR;
+    public $MUR;
 
     /** @var float|int */
-    public float $MVR;
+    public $MVR;
 
     /** @var float|int */
-    public float $MWK;
+    public $MWK;
 
     /** @var float|int */
-    public float $MXN;
+    public $MXN;
 
     /** @var float|int */
-    public float $MYR;
+    public $MYR;
 
     /** @var float|int */
-    public float $MZN;
+    public $MZN;
 
     /** @var float|int */
-    public float $NAD;
+    public $NAD;
 
     /** @var float|int */
-    public float $NGN;
+    public $NGN;
 
     /** @var float|int */
-    public float $NIO;
+    public $NIO;
 
     /** @var float|int */
-    public float $NOK;
+    public $NOK;
 
     /** @var float|int */
-    public float $NPR;
+    public $NPR;
 
     /** @var float|int */
-    public float $NZD;
+    public $NZD;
 
     /** @var float|int */
-    public float $OMR;
+    public $OMR;
 
     /** @var float|int */
-    public float $PAB;
+    public $PAB;
 
     /** @var float|int */
-    public float $PEN;
+    public $PEN;
 
     /** @var float|int */
-    public float $PGK;
+    public $PGK;
 
     /** @var float|int */
-    public float $PHP;
+    public $PHP;
 
     /** @var float|int */
-    public float $PKR;
+    public $PKR;
 
     /** @var float|int */
-    public float $PLN;
+    public $PLN;
 
     /** @var float|int */
-    public float $PYG;
+    public $PYG;
 
     /** @var float|int */
-    public float $QAR;
+    public $QAR;
 
     /** @var float|int */
-    public float $RON;
+    public $RON;
 
     /** @var float|int */
-    public float $RSD;
+    public $RSD;
 
     /** @var float|int */
-    public float $RUB;
+    public $RUB;
 
     /** @var float|int */
-    public float $RWF;
+    public $RWF;
 
     /** @var float|int */
-    public float $SAR;
+    public $SAR;
 
     /** @var float|int */
-    public float $SBD;
+    public $SBD;
 
     /** @var float|int */
-    public float $SCR;
+    public $SCR;
 
     /** @var float|int */
-    public float $SDG;
+    public $SDG;
 
     /** @var float|int */
-    public float $SEK;
+    public $SEK;
 
     /** @var float|int */
-    public float $SGD;
+    public $SGD;
 
     /** @var float|int */
-    public float $SHP;
+    public $SHP;
 
     /** @var float|int */
-    public float $SLL;
+    public $SLL;
 
     /** @var float|int */
-    public float $SOS;
+    public $SOS;
 
     /** @var float|int */
-    public float $SRD;
+    public $SRD;
 
     /** @var float|int */
-    public float $SSP;
+    public $SSP;
 
     /** @var float|int */
-    public float $STD;
+    public $STD;
 
     /** @var float|int */
-    public float $STN;
+    public $STN;
 
     /** @var float|int */
-    public float $SVC;
+    public $SVC;
 
     /** @var float|int */
-    public float $SYP;
+    public $SYP;
 
     /** @var float|int */
-    public float $SZL;
+    public $SZL;
 
     /** @var float|int */
-    public float $THB;
+    public $THB;
 
     /** @var float|int */
-    public float $TJS;
+    public $TJS;
 
     /** @var float|int */
-    public float $TMT;
+    public $TMT;
 
     /** @var float|int */
-    public float $TND;
+    public $TND;
 
     /** @var float|int */
-    public float $TOP;
+    public $TOP;
 
     /** @var float|int */
-    public float $TRY;
+    public $TRY;
 
     /** @var float|int */
-    public float $TTD;
+    public $TTD;
 
     /** @var float|int */
-    public float $TWD;
+    public $TWD;
 
     /** @var float|int */
-    public float $TZS;
+    public $TZS;
 
     /** @var float|int */
-    public float $UAH;
+    public $UAH;
 
     /** @var float|int */
-    public float $UGX;
+    public $UGX;
 
     /** @var float|int */
-    public float $USD;
+    public $USD;
 
     /** @var float|int */
-    public float $UYU;
+    public $UYU;
 
     /** @var float|int */
-    public float $UZS;
+    public $UZS;
 
     /** @var float|int */
-    public float $VES;
+    public $VES;
 
     /** @var float|int */
-    public float $VND;
+    public $VND;
 
     /** @var float|int */
-    public float $VUV;
+    public $VUV;
 
     /** @var float|int */
-    public float $WST;
+    public $WST;
 
     /** @var float|int */
-    public float $XAF;
+    public $XAF;
 
     /** @var float|int */
-    public float $XAG;
+    public $XAG;
 
     /** @var float|int */
-    public float $XAU;
+    public $XAU;
 
     /** @var float|int */
-    public float $XCD;
+    public $XCD;
 
     /** @var float|int */
-    public float $XDR;
+    public $XDR;
 
     /** @var float|int */
-    public float $XOF;
+    public $XOF;
 
     /** @var float|int */
-    public float $XPD;
+    public $XPD;
 
     /** @var float|int */
-    public float $XPF;
+    public $XPF;
 
     /** @var float|int */
-    public float $XPT;
+    public $XPT;
 
     /** @var float|int */
-    public float $YER;
+    public $YER;
 
     /** @var float|int */
-    public float $ZAR;
+    public $ZAR;
 
     /** @var float|int */
-    public float $ZMW;
+    public $ZMW;
 
     /** @var float|int */
-    public float $ZWL;
+    public $ZWL;
 }
