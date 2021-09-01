@@ -5,16 +5,12 @@
 
 use yii\helpers\Html;
 
-$this->title = 'Rates latest';
+$this->title = 'Work with ajax';
 ?>
 <div class="site-about">
     <h1><?= Html::encode($this->title) ?></h1>
-
-    <p>
-        <?php
-            echo '<pre>', print_r($ratesLatest), '</pre>';
-        ?>
-    </p>
-
+    <div>
+        <button id="click_here" class="btn btn-success">Click here</button>
+    </div>
     <code><?= __FILE__ ?></code>
 </div>
