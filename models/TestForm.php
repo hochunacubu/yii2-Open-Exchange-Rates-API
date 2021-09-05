@@ -26,6 +26,7 @@ class TestForm extends Model
     {
         return [
             [['name', 'email'], 'required'],
+            ['text', 'trim'],
         ];
     }
 }

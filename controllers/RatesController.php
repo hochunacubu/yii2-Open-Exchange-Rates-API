@@ -34,6 +34,13 @@ class RatesController extends Controller
     public function actionTestForm()
     {
         $modelForm = new TestForm();
+        if ($modelForm->load(Yii::$app->request->post())) {
+            if ($modelForm->validate()) {
+                Yii::$app->session->setFlash('success', 'data was load');
+            } else {
+                Yii::$app->session->setFlash('error', 'form has errors');
+            }
+        }
 
         return $this->render('testForm', compact('modelForm'));
     }

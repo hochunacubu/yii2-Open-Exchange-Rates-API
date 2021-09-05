@@ -15,6 +15,13 @@ $this->title = 'Work with model';
     <div>
         <?php
             //dump($modelForm);
+            if (Yii::$app->session->hasFlash('success')) {
+                echo Yii::$app->session->getFlash('success');
+            }
+
+            if (Yii::$app->session->hasFlash('error')) {
+                echo Yii::$app->session->getFlash('error');
+            }
         ?>
         <?php
             $form = ActiveForm::begin();

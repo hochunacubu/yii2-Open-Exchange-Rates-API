@@ -7,6 +7,7 @@ $config = [
     'id' => 'basic',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
+    'language' => 'ru',
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
         '@npm'   => '@vendor/npm-asset',
@@ -46,14 +47,13 @@ $config = [
         'ratesApi' => [
             'class' => 'app\components\RatesApiComponent',
         ],
-        /*
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
+                'news/<id:\d+>' => 'news/view'
             ],
         ],
-        */
     ],
     'params' => $params,
 ];
@@ -65,6 +65,7 @@ if (YII_ENV_DEV) {
         'class' => 'yii\debug\Module',
         // uncomment the following to add your IP if you are not connecting from localhost.
         //'allowedIPs' => ['127.0.0.1', '::1'],
+        'allowedIPs' => ['136.169.215.9', '::1'],
     ];
 
     $config['bootstrap'][] = 'gii';
@@ -72,6 +73,7 @@ if (YII_ENV_DEV) {
         'class' => 'yii\gii\Module',
         // uncomment the following to add your IP if you are not connecting from localhost.
         //'allowedIPs' => ['127.0.0.1', '::1'],
+        'allowedIPs' => ['136.169.215.9', '::1'],
     ];
 }
 
